@@ -6,7 +6,7 @@ import Header from '../components/Header';
 import { createGenerateClassName, StylesProvider } from '@material-ui/core/styles';
 
 const generateClassName = createGenerateClassName({
-    productionPrefix: 'co',
+    productionPrefix: 'container',
 });
 
 export default () => {
